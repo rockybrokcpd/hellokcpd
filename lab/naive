@@ -1,0 +1,6 @@
+s = input("enter string:")
+p = input("enter pattern:")
+for i in range(0, len(s)):
+    s1 = s[i:i+len(p)]
+    if len(s1) == len(p) and s1 == p:
+        print("found")
